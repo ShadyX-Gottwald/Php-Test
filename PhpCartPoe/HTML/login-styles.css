@@ -1,0 +1,28 @@
+
+.login-styles{ 
+  margin-left: 15%;   
+  padding-left: 20px;   
+  width: 60%; 
+  background-color: rgba(177, 175, 175, 0.938);
+}   
+
+input[type=email] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;   
+  display: block;  
+  border-top-left-radius: 12px;
+
+}     
+
+
+input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;  
+  display: block;    
+  border-top-left-radius: 12px;
+
+}

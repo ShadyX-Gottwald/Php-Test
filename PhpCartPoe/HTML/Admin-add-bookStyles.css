@@ -1,0 +1,66 @@
+
+.addBook_div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+.addBook, input[type=text],
+number {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.addBook,
+input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.addBook ,input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.addBook-submit{ 
+  color:white;       
+  width: 100%;
+  margin-top: 6px;    
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;      
+  font-size: large; 
+  font-weight: 900;   
+  background-color: rgb(30, 230, 230);   
+    
+  border: none;   
+  border-bottom-color: red;   
+
+padding-top: 8px; 
+padding-left: 8px; 
+padding-right: 8px; 
+padding-bottom: 8px;    
+
+border-radius: 4px;
+
+}
+.addBook-submit:hover {
+  background-color: rgb(243, 103, 9);   
+  margin-top: 4px;
+  cursor: pointer;
+}
+

@@ -1,0 +1,42 @@
+
+.book_text{ 
+  /*float: right;*/  
+  clear: both;
+}
+
+.grid-container_2 {
+  display: grid;
+  grid-template-columns: auto auto ;
+  gap: 5px;
+  background-color: white;
+  padding: 5px;
+ 
+}
+
+.grid-container_2 .div {
+  background-color: white;
+  text-align: left;
+  
+  padding: 20px 0;
+  font-size: 30px;
+  margin-left: 10px;
+  
+  
+}
+
+.book_image{ 
+  height: 90%;    
+  width: 100%;
+  border-top-left-radius: 5%; 
+  border-top-right-radius: 5%;
+}
+
+/*Style add to cut button*/
+
+.add-to-cart-btn{
+  background-color: aqua;   
+  border-top-left-radius: 20px;   
+  height: 30px;  
+  margin-left: 40%;   
+  
+}

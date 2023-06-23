@@ -1,0 +1,113 @@
+
+/*Target table with book items */
+
+#books-admin {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#books-admin td,
+#books-admin th {
+  border: 1px solid #ddd;
+  padding: 4px;
+}
+
+#books-admin tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+
+#books-admin th {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  background-color: rgb(253, 155, 8);
+  color: white;
+}
+
+.table-increase {
+  display: inline-flex;
+}
+
+.table-increase-btn {
+  display: inline;
+  background-color: rgb(51, 218, 51);
+  border: none;
+  color: white;
+  width: 70px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: medium;
+  margin-top: 8px;
+  margin-left: 15px;
+}
+
+.table-decrease-btn {
+  display: inline;
+  background-color: rgb(156, 221, 221);
+  border: none;
+  color: white;
+  width: 70px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: medium;
+  margin-top: 8px;
+  margin-left: 8px;
+
+}  
+.table-increase-btn:hover {
+  background-color: rgb(230, 83, 46);
+}
+#table-delete-btn {
+  display: inline;
+  background-color: red;
+  border: none;
+  color: white;
+  width: 70px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: medium;
+  margin-top: 8px;
+  margin-left: 8px;
+
+}  
+
+.table-upload-btn {
+  display: inline;
+  background-color: rgb(51, 218, 51);
+  border: none;
+  color: white;
+  width: 70px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: medium;
+  margin-top: 8px;
+  margin-left: 15px;
+}
+.table-edit-btn {
+  display: inline;
+  background-color: rgb(51, 218, 51);
+  border: none;
+  color: white;
+  width: 70px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: medium;
+  margin-top: 8px;
+  margin-left: 15px;
+}
+#table-delete-btn:hover {
+  background-color: rgb(230, 83, 46);
+}
+.table-increase-btn:hover {
+  background-color: rgb(230, 83, 46);
+}  
+
+.table-upload-btn:hover {
+  background-color: rgb(230, 83, 46);
+}
+.table-edit-btn:hover {
+  background-color: rgb(230, 83, 46);
+}
